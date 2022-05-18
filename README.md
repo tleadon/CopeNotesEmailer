@@ -12,7 +12,7 @@
  Go to the server folder turn on the server.
  ```cmd
 cd server
-npm i <!--- to install the dependencies --->
+npm i
 npm start
 ```
 
@@ -27,6 +27,12 @@ Keep this running for the frontend end to be able to send emails.
 
 ### Frontend - frontend/
 
+Navigate to the frontend folder:
+
+```cmd
+cd frontend
+```
+
 if you have yarn:
 ```cmd
 yarn start
@@ -35,6 +41,12 @@ yarn start
 otherwise:
 ```cmd
 npm i
+npm start
+```
+
+if having issues with dependencies:
+```cmd
+npm install --save --legacy-peer-deps
 npm start
 ```
 
