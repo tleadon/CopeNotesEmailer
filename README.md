@@ -13,7 +13,7 @@
  ```cmd
 cd server
 npm i <!--- to install the dependencies --->
-npm ## start
+npm start
 ```
 
 Should be log:
