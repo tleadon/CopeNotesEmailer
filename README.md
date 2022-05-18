@@ -12,6 +12,7 @@
  Go to the server folder turn on the server.
  ```cmd
 cd server
+npm i <!-- to install the dependencies >
 npm start
 ```
 
@@ -22,4 +23,26 @@ Should be log:
 
 Listening on port 3001...
 ```
+Keep this running for the frontend end to be able to send emails.
+
+### Frontend - frontend/
+
+if you have yarn:
+```cmd
+yarn start
+```
+
+otherwise:
+```cmd
+npm i
+npm start
+```
+
+should run on http://localhost:3000/
+
+## Usage
+
+Enter any first name, last name and email. Then, the program will send 10 messages randomly picked from 10 hardcoded messages with random pictures of dogs accompanying them.
+
+Thank you for reading!
 
